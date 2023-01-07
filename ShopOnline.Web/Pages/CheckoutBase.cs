@@ -31,48 +31,29 @@ namespace ShopOnline.Web.Pages
 
         protected override async Task OnInitializedAsync()
         {
-            try
+            ShoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection();
+
+            if (ShoppingCartItems.Any())
             {
-                ShoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection();
+                Guid orderGuid = Guid.NewGuid();
 
-                if (ShoppingCartItems != null && ShoppingCartItems.Count() > 0)
-                {
-                    Guid orderGuid = Guid.NewGuid();
-
-                    PaymentAmount = ShoppingCartItems.Sum(p => p.TotalPrice);
-                    TotalQty = ShoppingCartItems.Sum(p => p.Qty);
-                    PaymentDescription = $"O_{HardCoded.UserId}_{orderGuid}";
-
-                }
-                else
-                {
-                    DisplayButtons = "none";
-                }
+                PaymentAmount = ShoppingCartItems.Sum(p => p.TotalPrice);
+                TotalQty = ShoppingCartItems.Sum(p => p.Qty);
+                PaymentDescription = $"O_{HardCoded.UserId}_{orderGuid}";
 
             }
-            catch (Exception)
+            else
             {
-                //Log exception
-                throw;
+                DisplayButtons = "none";
             }
         }
 
         protected override async Task OnAfterRenderAsync(bool firstRender)
         {
-            try
+            if (firstRender)
             {
-                if (firstRender)
-                {
-                    await Js.InvokeVoidAsync("initPayPalButton");
-                }
-            }
-            catch (Exception)
-            {
-
-                throw;
+                await Js.InvokeVoidAsync("initPayPalButton");
             }
         }
-
-
     }
 }

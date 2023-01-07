@@ -27,6 +27,7 @@
             var amount = document.querySelector('#smart-button-container #amount');
 
             var purchase_units = [];
+            
             purchase_units[0] = {};
             purchase_units[0].amount = {};
 
@@ -35,12 +36,10 @@
                     color: 'gold',
                     shape: 'rect',
                     label: 'paypal',
-                    layout: 'vertical',
-
+                    layout: 'vertical'
                 },
 
                 createOrder: function (data, actions) {
-
                     purchase_units[0].description = description.value;
                     purchase_units[0].amount.value = amount.value;
 
@@ -61,7 +60,6 @@
                         element.innerHTML = '<h3>Thank you for your payment!</h3>';
 
                         // Or go to another URL:  actions.redirect('thank_you.html');
-
                     });
                 },
 
@@ -73,8 +71,5 @@
     </script>
     <script src="_framework/blazor.webassembly.js"></script>
     <script src="js/ShoppingCartFunctions.js"></script>
-
-
 </body>
-
 </html>

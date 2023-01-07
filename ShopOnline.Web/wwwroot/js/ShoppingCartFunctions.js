@@ -8,6 +8,4 @@
     else {
         updateQtyButton.style.display = "none";
     }
-
-
 }

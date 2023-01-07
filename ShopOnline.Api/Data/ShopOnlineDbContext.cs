@@ -70,13 +70,13 @@ namespace ShopOnline.Api.Data
 				CategoryId = 1
 
 			});
-			//Electronics Category
+			//Electronic Category
 			modelBuilder.Entity<Product>().HasData(new Product
 			{
 				Id = 6,
 				Name = "Air Pods",
 				Description = "Air Pods - in-ear wireless headphones",
-				ImageURL = "/Images/Electronic/Electronics1.png",
+				ImageURL = "/Images/Electronic/Electronic1.png",
 				Price = 100,
 				Qty = 120,
 				CategoryId = 3
@@ -87,7 +87,7 @@ namespace ShopOnline.Api.Data
 				Id = 7,
 				Name = "On-ear Golden Headphones",
 				Description = "On-ear Golden Headphones - these headphones are not wireless",
-				ImageURL = "/Images/Electronic/Electronics2.png",
+				ImageURL = "/Images/Electronic/Electronic2.png",
 				Price = 40,
 				Qty = 200,
 				CategoryId = 3
@@ -98,7 +98,7 @@ namespace ShopOnline.Api.Data
 				Id = 8,
 				Name = "On-ear Black Headphones",
 				Description = "On-ear Black Headphones - these headphones are not wireless",
-				ImageURL = "/Images/Electronic/Electronics3.png",
+				ImageURL = "/Images/Electronic/Electronic3.png",
 				Price = 40,
 				Qty = 300,
 				CategoryId = 3
@@ -131,7 +131,7 @@ namespace ShopOnline.Api.Data
 				Id = 11,
 				Name = "Nintendo Gameboy",
 				Description = "Gameboy - Provided by Nintendo",
-				ImageURL = "/Images/Electronic/technology6.png",
+				ImageURL = "/Images/Electronic/Technology6.png",
 				Price = 100,
 				Qty = 60,
 				CategoryId = 3
