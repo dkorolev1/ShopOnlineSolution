@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NK4rik4sAH24WWnnYEnYr2gZXaFBNlAaAv/Qie2fQ+HNOWsfz+/RRaJxwgZQNfyYfgVlO1NXlkVlRU8o6bAYJg==",
+  "dgSpecHash": "kyyO8BPVvpbZ9Rg5ohvJqkThbefriwGlJiKdJMOgS6JfyCLJy2AmsAAqbC/64RL1GLow1eYa7xwzAm0GCeMQOQ==",
   "success": true,
   "projectFilePath": "/home/dkorolev/dkorolev-dev/ShopOnlineSolution/ShopOnline.Web/ShopOnline.Web.csproj",
   "expectedPackageFiles": [
@@ -35,7 +35,7 @@
     "/home/dkorolev/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/home/dkorolev/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
     "/home/dkorolev/.nuget/packages/system.text.json/6.0.0/system.text.json.6.0.0.nupkg.sha512",
-    "/home/dkorolev/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/6.0.12/microsoft.netcore.app.runtime.mono.browser-wasm.6.0.12.nupkg.sha512"
+    "/home/dkorolev/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/6.0.14/microsoft.netcore.app.runtime.mono.browser-wasm.6.0.14.nupkg.sha512"
   ],
   "logs": []
 }

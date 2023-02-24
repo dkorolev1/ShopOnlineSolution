@@ -23,17 +23,13 @@ builder.Services.AddScoped<IShoppingCartRepository, ShoppingCartRepository>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseCors(policy =>
-    policy.WithOrigins("http://localhost:7060", "https://localhost:7060")
-    .AllowAnyMethod()
-    .WithHeaders(HeaderNames.ContentType)
+    policy.WithOrigins("http://localhost:8080", "https://localhost:8080")
+        .AllowAnyMethod()
+        .WithHeaders(HeaderNames.ContentType)
 );
 
 app.UseHttpsRedirection();
@@ -41,5 +37,16 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+
+    var context = services.GetRequiredService<ShopOnlineDbContext>();
+    if (context.Database.GetPendingMigrations().Any())
+    {
+        context.Database.Migrate();
+    }
+}
 
 app.Run();

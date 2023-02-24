@@ -1,5 +1,4 @@
 /home/dkorolev/dkorolev-dev/ShopOnlineSolution/ShopOnline.Api/bin/Debug/net6.0/appsettings.Development.json
-/home/dkorolev/dkorolev-dev/ShopOnlineSolution/ShopOnline.Api/bin/Debug/net6.0/appsettings.json
 /home/dkorolev/dkorolev-dev/ShopOnlineSolution/ShopOnline.Api/bin/Debug/net6.0/ShopOnline.Api
 /home/dkorolev/dkorolev-dev/ShopOnlineSolution/ShopOnline.Api/bin/Debug/net6.0/ShopOnline.Api.deps.json
 /home/dkorolev/dkorolev-dev/ShopOnlineSolution/ShopOnline.Api/bin/Debug/net6.0/ShopOnline.Api.runtimeconfig.json
@@ -62,3 +61,4 @@
 /home/dkorolev/dkorolev-dev/ShopOnlineSolution/ShopOnline.Api/obj/Debug/net6.0/ref/ShopOnline.Api.dll
 /home/dkorolev/dkorolev-dev/ShopOnlineSolution/ShopOnline.Api/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
 /home/dkorolev/dkorolev-dev/ShopOnlineSolution/ShopOnline.Api/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/home/dkorolev/dkorolev-dev/ShopOnlineSolution/ShopOnline.Api/bin/Debug/net6.0/appsettings.Production.json

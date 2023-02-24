@@ -1,0 +1,12 @@
+/home/dkorolev/dkorolev-dev/ShopOnlineSolution/ShopOnline.Models/bin/Release/net6.0/ShopOnline.Models.deps.json
+/home/dkorolev/dkorolev-dev/ShopOnlineSolution/ShopOnline.Models/bin/Release/net6.0/ShopOnline.Models.dll
+/home/dkorolev/dkorolev-dev/ShopOnlineSolution/ShopOnline.Models/bin/Release/net6.0/ShopOnline.Models.pdb
+/home/dkorolev/dkorolev-dev/ShopOnlineSolution/ShopOnline.Models/obj/Release/net6.0/ShopOnline.Models.csproj.AssemblyReference.cache
+/home/dkorolev/dkorolev-dev/ShopOnlineSolution/ShopOnline.Models/obj/Release/net6.0/ShopOnline.Models.GeneratedMSBuildEditorConfig.editorconfig
+/home/dkorolev/dkorolev-dev/ShopOnlineSolution/ShopOnline.Models/obj/Release/net6.0/ShopOnline.Models.AssemblyInfoInputs.cache
+/home/dkorolev/dkorolev-dev/ShopOnlineSolution/ShopOnline.Models/obj/Release/net6.0/ShopOnline.Models.AssemblyInfo.cs
+/home/dkorolev/dkorolev-dev/ShopOnlineSolution/ShopOnline.Models/obj/Release/net6.0/ShopOnline.Models.csproj.CoreCompileInputs.cache
+/home/dkorolev/dkorolev-dev/ShopOnlineSolution/ShopOnline.Models/obj/Release/net6.0/ShopOnline.Models.dll
+/home/dkorolev/dkorolev-dev/ShopOnlineSolution/ShopOnline.Models/obj/Release/net6.0/refint/ShopOnline.Models.dll
+/home/dkorolev/dkorolev-dev/ShopOnlineSolution/ShopOnline.Models/obj/Release/net6.0/ShopOnline.Models.pdb
+/home/dkorolev/dkorolev-dev/ShopOnlineSolution/ShopOnline.Models/obj/Release/net6.0/ref/ShopOnline.Models.dll
